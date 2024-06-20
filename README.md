@@ -1,0 +1,2 @@
+# MusicPlayer
+这是一款以前练习的一个demo-音乐播放器。主要考察点是碎片fragment和广播broadcast的使用
