@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_song"/>
+    <!--    <Button-->
+    <!--        android:id="@+id/music_1"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:text="十年&#45;&#45;陈奕迅"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:background="@color/purple_200" />-->
+    <!--    <Button-->
+    <!--        android:id="@+id/music_2"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:text="丑八怪&#45;&#45;薛之谦"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:background="@color/teal_200" />-->
+    <!--    <Button-->
+    <!--        android:id="@+id/music_3"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:text="曹操&#45;&#45;林俊杰"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:background="@color/teal_200" />-->
+
+
+</LinearLayout>
